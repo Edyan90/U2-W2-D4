@@ -4,7 +4,7 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "./bootstrap/scss/functions";
 // 2. Include any default variable overrides here
-$btn-border-radius: 50rem !default;
+
 $input-btn-padding-x: 2.5rem !default;
 $input-btn-padding-y: 0.75rem !default;
 $grid-gutter-width: 0.5rem !default;
@@ -12,7 +12,7 @@ $border-radius: 2rem !default;
 $danger: #ff0077;
 $info:#00ffea;
 $light: #f3eeff;
-
+$btn-border-radius: 50rem;
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "./bootstrap/scss/variables";
 @import "./bootstrap/scss/variables-dark";
@@ -40,7 +40,12 @@ $add-border-widths:(
 $border-widths: map-merge($border-widths,$add-border-widths);
 $card-bg: $dark;
 $body-color: $info;
-
+$add-theme-colors: (
+    "epicode":#5726c3,
+    "epicode-2": #8625a5,
+    "epicode-3": #cb2376
+    );
+$theme-colors: map-merge($theme-colors, $add-theme-colors ); 
 // 5. Include remainder of required parts
 @import "./bootstrap/scss/maps";
 @import "./bootstrap/scss/mixins";
