@@ -32,7 +32,7 @@
   --bs-danger: #ff0077;
   --bs-light: #f3eeff;
   --bs-dark: #212529;
-  --bs-epicode: #5726c3;
+  --bs-epicode-1: #5726c3;
   --bs-epicode-2: #8625a5;
   --bs-epicode-3: #cb2376;
   --bs-primary-rgb: 13, 110, 253;
@@ -43,7 +43,7 @@
   --bs-danger-rgb: 255, 0, 119;
   --bs-light-rgb: 243, 238, 255;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-epicode-rgb: 87, 38, 195;
+  --bs-epicode-1-rgb: 87, 38, 195;
   --bs-epicode-2-rgb: 134, 37, 165;
   --bs-epicode-3-rgb: 203, 35, 118;
   --bs-primary-text-emphasis: #052c65;
@@ -2919,7 +2919,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
-.btn-epicode {
+.btn-epicode-1 {
   --bs-btn-color: #fff;
   --bs-btn-bg: #5726c3;
   --bs-btn-border-color: #5726c3;
@@ -3106,7 +3106,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-epicode {
+.btn-outline-epicode-1 {
   --bs-btn-color: #5726c3;
   --bs-btn-border-color: #5726c3;
   --bs-btn-hover-color: #fff;
@@ -4088,9 +4088,9 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-epicode {
+.text-bg-epicode-1 {
   color: #fff !important;
-  background-color: RGBA(var(--bs-epicode-rgb), var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-epicode-1-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-epicode-2 {
@@ -4175,11 +4175,11 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(26, 30, 33, var(--bs-link-underline-opacity, 1)) !important;
 }
 
-.link-epicode {
-  color: RGBA(var(--bs-epicode-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-epicode-rgb), var(--bs-link-underline-opacity, 1)) !important;
+.link-epicode-1 {
+  color: RGBA(var(--bs-epicode-1-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-epicode-1-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
-.link-epicode:hover, .link-epicode:focus {
+.link-epicode-1:hover, .link-epicode-1:focus {
   color: RGBA(70, 30, 156, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(70, 30, 156, var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -4929,8 +4929,8 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-dark-rgb), var(--bs-focus-ring-opacity));
 }
 
-.focus-ring-epicode {
-  --bs-focus-ring-color: rgba(var(--bs-epicode-rgb), var(--bs-focus-ring-opacity));
+.focus-ring-epicode-1 {
+  --bs-focus-ring-color: rgba(var(--bs-epicode-1-rgb), var(--bs-focus-ring-opacity));
 }
 
 .focus-ring-epicode-2 {
@@ -5101,9 +5101,9 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
 }
 
-.border-epicode {
+.border-epicode-1 {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-epicode-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-epicode-1-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-epicode-2 {
@@ -6109,9 +6109,9 @@ textarea.form-control-lg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-epicode {
+.text-epicode-1 {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-epicode-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-epicode-1-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-epicode-2 {
@@ -6326,9 +6326,9 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
-.link-underline-epicode {
+.link-underline-epicode-1 {
   --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-epicode-rgb), var(--bs-link-underline-opacity)) !important;
+  text-decoration-color: rgba(var(--bs-epicode-1-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline-epicode-2 {
@@ -6434,9 +6434,9 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-epicode {
+.bg-epicode-1 {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-epicode-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-epicode-1-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-epicode-2 {
